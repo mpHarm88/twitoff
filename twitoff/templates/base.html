@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- add in title and also in app.py -->
+    <title> Twitoff!! - {{ title }}</title>
+
+  </head>
+
+  <body>
+    <h1> Twitoff Rules! </h1>
+    <p> Elon Tweets 🛰 </p>
+
+    <ul>
+      {% for tweet in tweets %}
+      <li>{{ tweet.text }}</li>
+      {% endfor %}
+    </ul>
+
+  </body>
+</html>
