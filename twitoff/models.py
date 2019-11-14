@@ -1,5 +1,4 @@
 """These are my database models"""
-
 from flask_sqlalchemy import SQLAlchemy
 
 # import database. capital for global scope

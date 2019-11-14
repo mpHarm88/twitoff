@@ -11,12 +11,12 @@ jinja2 = "*"
 basilica = "*"
 tweepy = "*"
 redis = "*"
+psycopg2-binary = "*"
 flask-sqlalchemy = "*"
 gunicorn = "*"
 scikit-learn = "*"
 python-dotenv = "*"
 python-decouple = "*"
-psycopg2-binary = "*"
 
 [requires]
 python_version = "3.7"
